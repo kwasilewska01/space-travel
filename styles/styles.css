@@ -16,6 +16,7 @@ body {
 
 .header {
     height: 90vh;
+    min-height: 590px;
     background-image: url(../img/space_travel2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,10 +31,12 @@ body {
 .header--title {
     color: #FFFFFF;
     text-transform: uppercase;
+    white-space: pre-line;
 }
 
 .header--subtitle {
     color: #FFFFFF;
+    white-space: pre-line;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -47,11 +50,6 @@ h1 {
     font-weight: bolder;
     font-family: couture;
     line-height: 3.3rem;
-    float: right;
-    right: 26%;
-    position: relative;
-    top: 50vh;
-    white-space: pre-line;
 }
 
 h2 {
@@ -83,4 +81,16 @@ h6 {
     float:left;
     font-size: 7.5rem;
     padding-top: .3rem;
+}
+
+.row--position {
+    top: 328px;
+    position: relative;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.header--text--position {
+    position: absolute;
+    right: -53%;
 }
