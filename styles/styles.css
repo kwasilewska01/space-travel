@@ -1,0 +1,86 @@
+@font-face {
+    font-family: couture;
+    src: url('../fonts/couture-bld.otf');
+}
+
+@font-face {
+ font-family: MVJadheedh;
+ src: url('../fonts//mv\ jadheedh.ttf');
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    height: 90vh;
+    background-image: url(../img/space_travel2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header--image{
+    width: 100%;
+    height: auto;
+}
+
+.header--title {
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.header--subtitle {
+    color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    letter-spacing: 0.05rem;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bolder;
+    font-family: couture;
+    line-height: 3.3rem;
+    float: right;
+    right: 26%;
+    position: relative;
+    top: 50vh;
+    white-space: pre-line;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem; 
+}
+
+h4 {
+    font-size: 1.5rem; 
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+h6 {
+    font-size: .9rem;
+}
+
+.text--upperCase {
+    text-transform: uppercase;
+}
+
+.text--firstLetter::first-letter {
+    color: #7040b6;
+    float:left;
+    font-size: 7.5rem;
+    padding-top: .3rem;
+}
